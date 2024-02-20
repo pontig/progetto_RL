@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Feb 14 12:10:37 2024
+# Process ID: 24144
+# Current directory: F:/Elia/Documenti/Codici/progetto_RL/progetto_RL.sim/sim_1/impl/func
+# Command line: wbtcv.exe -mode batch -source F:/Elia/Documenti/Codici/progetto_RL/progetto_RL.sim/sim_1/impl/func/xsim.dir/project_reti_logiche_func_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: F:/Elia/Documenti/Codici/progetto_RL/progetto_RL.sim/sim_1/impl/func/webtalk.log
+# Journal file: F:/Elia/Documenti/Codici/progetto_RL/progetto_RL.sim/sim_1/impl/func\webtalk.jou
+#-----------------------------------------------------------
+source F:/Elia/Documenti/Codici/progetto_RL/progetto_RL.sim/sim_1/impl/func/xsim.dir/project_reti_logiche_func_impl/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Feb 14 12:10:37 2024...

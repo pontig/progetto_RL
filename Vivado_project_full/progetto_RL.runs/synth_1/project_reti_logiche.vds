@@ -1,0 +1,429 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Mar 28 13:52:15 2023
+# Process ID: 15492
+# Current directory: C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.runs/synth_1
+# Command line: vivado.exe -log project_reti_logiche.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source project_reti_logiche.tcl
+# Log file: C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.runs/synth_1/project_reti_logiche.vds
+# Journal file: C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source project_reti_logiche.tcl -notrace
+Command: synth_design -top project_reti_logiche -part xc7k160tlfbv676-2L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k160tl'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k160tl'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8456 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 278.398 ; gain = 68.090
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'project_reti_logiche' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:548]
+INFO: [Synth 8-3491] module 'monostable_circuit' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:368' bound to instance 'green' of component 'monostable_circuit' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:626]
+INFO: [Synth 8-638] synthesizing module 'monostable_circuit' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:376]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'x' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:388]
+INFO: [Synth 8-638] synthesizing module 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:509]
+INFO: [Synth 8-256] done synthesizing module 'ff_d' (1#1) [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:509]
+INFO: [Synth 8-256] done synthesizing module 'monostable_circuit' (2#1) [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:376]
+INFO: [Synth 8-3491] module 'input_splitter' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:314' bound to instance 'blue' of component 'input_splitter' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:628]
+INFO: [Synth 8-638] synthesizing module 'input_splitter' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:323]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'state0' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:340]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'state1' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:347]
+INFO: [Synth 8-256] done synthesizing module 'input_splitter' (3#1) [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:323]
+INFO: [Synth 8-3491] module 'logic_block_a' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:155' bound to instance 'orange' of component 'logic_block_a' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:630]
+INFO: [Synth 8-638] synthesizing module 'logic_block_a' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:165]
+INFO: [Synth 8-256] done synthesizing module 'logic_block_a' (4#1) [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:165]
+INFO: [Synth 8-3491] module 'serial_reg' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:180' bound to instance 'azure' of component 'serial_reg' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:632]
+INFO: [Synth 8-638] synthesizing module 'serial_reg' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:188]
+WARNING: [Synth 8-5640] Port 'outnotq' is missing in component declaration [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:191]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'bit0' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:199]
+WARNING: [Synth 8-5640] Port 'outnotq' is missing in component declaration [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:191]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'bit1' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:203]
+WARNING: [Synth 8-5640] Port 'outnotq' is missing in component declaration [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:191]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'bit2' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:207]
+WARNING: [Synth 8-5640] Port 'outnotq' is missing in component declaration [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:191]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'bit3' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:211]
+WARNING: [Synth 8-5640] Port 'outnotq' is missing in component declaration [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:191]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'bit4' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:215]
+WARNING: [Synth 8-5640] Port 'outnotq' is missing in component declaration [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:191]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'bit5' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:219]
+WARNING: [Synth 8-5640] Port 'outnotq' is missing in component declaration [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:191]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'bit6' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:223]
+WARNING: [Synth 8-5640] Port 'outnotq' is missing in component declaration [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:191]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'bit7' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:227]
+WARNING: [Synth 8-5640] Port 'outnotq' is missing in component declaration [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:191]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'bit8' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:231]
+WARNING: [Synth 8-5640] Port 'outnotq' is missing in component declaration [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:191]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'bit9' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:235]
+WARNING: [Synth 8-5640] Port 'outnotq' is missing in component declaration [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:191]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'bit10' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:239]
+WARNING: [Synth 8-5640] Port 'outnotq' is missing in component declaration [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:191]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'bit11' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:243]
+WARNING: [Synth 8-5640] Port 'outnotq' is missing in component declaration [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:191]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'bit12' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:247]
+WARNING: [Synth 8-5640] Port 'outnotq' is missing in component declaration [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:191]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'bit13' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:251]
+WARNING: [Synth 8-5640] Port 'outnotq' is missing in component declaration [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:191]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'bit14' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:255]
+WARNING: [Synth 8-5640] Port 'outnotq' is missing in component declaration [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:191]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'bit15' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:259]
+INFO: [Synth 8-256] done synthesizing module 'serial_reg' (5#1) [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:188]
+INFO: [Synth 8-3491] module 'exit_selector' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:272' bound to instance 'violet' of component 'exit_selector' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:634]
+INFO: [Synth 8-638] synthesizing module 'exit_selector' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:280]
+INFO: [Synth 8-3491] module 'ff_sr' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:467' bound to instance 'x1' of component 'ff_sr' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:289]
+INFO: [Synth 8-638] synthesizing module 'ff_sr' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:476]
+INFO: [Synth 8-256] done synthesizing module 'ff_sr' (6#1) [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:476]
+INFO: [Synth 8-3491] module 'ff_sr' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:467' bound to instance 'x0' of component 'ff_sr' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:297]
+INFO: [Synth 8-256] done synthesizing module 'exit_selector' (7#1) [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:280]
+INFO: [Synth 8-3491] module 'logic_block_b' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:84' bound to instance 'yellow' of component 'logic_block_b' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:636]
+INFO: [Synth 8-638] synthesizing module 'logic_block_b' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:96]
+INFO: [Synth 8-4471] merging register 'set_reg[7:0]' into 'z_set_reg[7:0]' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:117]
+INFO: [Synth 8-4471] merging register 'reset_reg[7:0]' into 'z_reset_reg[7:0]' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:118]
+INFO: [Synth 8-256] done synthesizing module 'logic_block_b' (8#1) [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:96]
+INFO: [Synth 8-3491] module 'out_reg' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:20' bound to instance 'oZ0' of component 'out_reg' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:638]
+INFO: [Synth 8-638] synthesizing module 'out_reg' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:29]
+INFO: [Synth 8-3491] module 'reg_sr' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:405' bound to instance 'r' of component 'reg_sr' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'reg_sr' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:413]
+INFO: [Synth 8-256] done synthesizing module 'reg_sr' (9#1) [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:413]
+INFO: [Synth 8-3491] module 'reg_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:436' bound to instance 'tim' of component 'reg_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:58]
+INFO: [Synth 8-638] synthesizing module 'reg_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:445]
+INFO: [Synth 8-256] done synthesizing module 'reg_d' (10#1) [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:445]
+WARNING: [Synth 8-614] signal 'toTheDoor' is read in the process but is not in the sensitivity list [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'out_reg' (11#1) [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:29]
+INFO: [Synth 8-3491] module 'out_reg' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:20' bound to instance 'oZ1' of component 'out_reg' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:640]
+INFO: [Synth 8-3491] module 'out_reg' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:20' bound to instance 'oZ2' of component 'out_reg' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:642]
+INFO: [Synth 8-3491] module 'out_reg' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:20' bound to instance 'oZ3' of component 'out_reg' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:644]
+WARNING: [Synth 8-5640] Port 'outnotq' is missing in component declaration [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:618]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'delayA' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:646]
+WARNING: [Synth 8-5640] Port 'outnotq' is missing in component declaration [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:618]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'dealyB' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:648]
+WARNING: [Synth 8-5640] Port 'outnotq' is missing in component declaration [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:618]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'delayC' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:650]
+WARNING: [Synth 8-5640] Port 'outnotq' is missing in component declaration [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:618]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'delayD' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:652]
+WARNING: [Synth 8-5640] Port 'outnotq' is missing in component declaration [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:618]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'delayE' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:654]
+WARNING: [Synth 8-5640] Port 'outnotq' is missing in component declaration [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:618]
+INFO: [Synth 8-3491] module 'ff_d' declared at 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:500' bound to instance 'delayF' of component 'ff_d' [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:656]
+INFO: [Synth 8-256] done synthesizing module 'project_reti_logiche' (12#1) [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd:548]
+WARNING: [Synth 8-3917] design project_reti_logiche has port o_mem_we driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 315.820 ; gain = 105.512
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 315.820 ; gain = 105.512
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7k160tlfbv676-2L
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/constrs_1/new/clock.xdc]
+Finished Parsing XDC File [C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/constrs_1/new/clock.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 632.781 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 632.781 ; gain = 422.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k160tlfbv676-2L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 632.781 ; gain = 422.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 632.781 ; gain = 422.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 632.781 ; gain = 422.473
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 14    
+	                1 Bit    Registers := 54    
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 20    
+	   2 Input      1 Bit        Muxes := 32    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module project_reti_logiche 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module ff_d 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module monostable_circuit 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module ff_sr 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module logic_block_b 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 16    
+Module reg_sr 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 8     
+Module reg_d 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2     
+Module out_reg 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 600 (col length:100)
+BRAMs: 650 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3917] design project_reti_logiche has port o_mem_we driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 632.781 ; gain = 422.473
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 632.781 ; gain = 422.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 632.781 ; gain = 422.473
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 632.781 ; gain = 422.473
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 632.781 ; gain = 422.473
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 632.781 ; gain = 422.473
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 632.781 ; gain = 422.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 632.781 ; gain = 422.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 632.781 ; gain = 422.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 632.781 ; gain = 422.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     8|
+|3     |LUT2 |    49|
+|4     |LUT3 |     6|
+|5     |LUT4 |     2|
+|6     |LUT5 |    32|
+|7     |FDRE |   107|
+|8     |IBUF |    12|
+|9     |OBUF |    51|
++------+-----+------+
+
+Report Instance Areas: 
++------+-----------+-------------------+------+
+|      |Instance   |Module             |Cells |
++------+-----------+-------------------+------+
+|1     |top        |                   |   268|
+|2     |  azure    |serial_reg         |    16|
+|3     |    bit0   |ff_d_18            |     1|
+|4     |    bit1   |ff_d_19            |     1|
+|5     |    bit10  |ff_d_20            |     1|
+|6     |    bit11  |ff_d_21            |     1|
+|7     |    bit12  |ff_d_22            |     1|
+|8     |    bit13  |ff_d_23            |     1|
+|9     |    bit14  |ff_d_24            |     1|
+|10    |    bit15  |ff_d_25            |     1|
+|11    |    bit2   |ff_d_26            |     1|
+|12    |    bit3   |ff_d_27            |     1|
+|13    |    bit4   |ff_d_28            |     1|
+|14    |    bit5   |ff_d_29            |     1|
+|15    |    bit6   |ff_d_30            |     1|
+|16    |    bit7   |ff_d_31            |     1|
+|17    |    bit8   |ff_d_32            |     1|
+|18    |    bit9   |ff_d_33            |     1|
+|19    |  blue     |input_splitter     |     4|
+|20    |    state0 |ff_d_16            |     1|
+|21    |    state1 |ff_d_17            |     2|
+|22    |  dealyB   |ff_d               |    17|
+|23    |  delayA   |ff_d_0             |     1|
+|24    |  delayC   |ff_d_1             |     1|
+|25    |  delayD   |ff_d_2             |     1|
+|26    |  delayE   |ff_d_3             |    33|
+|27    |  delayF   |ff_d_4             |     1|
+|28    |  green    |monostable_circuit |     2|
+|29    |    x      |ff_d_15            |     2|
+|30    |  oZ0      |out_reg            |    24|
+|31    |    r      |reg_sr_13          |    16|
+|32    |    tim    |reg_d_14           |     8|
+|33    |  oZ1      |out_reg_5          |    24|
+|34    |    r      |reg_sr_11          |    16|
+|35    |    tim    |reg_d_12           |     8|
+|36    |  oZ2      |out_reg_6          |    24|
+|37    |    r      |reg_sr_9           |    16|
+|38    |    tim    |reg_d_10           |     8|
+|39    |  oZ3      |out_reg_7          |    24|
+|40    |    r      |reg_sr             |    16|
+|41    |    tim    |reg_d              |     8|
+|42    |  violet   |exit_selector      |     6|
+|43    |    x0     |ff_sr              |     2|
+|44    |    x1     |ff_sr_8            |     4|
+|45    |  yellow   |logic_block_b      |    26|
++------+-----------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 632.781 ; gain = 422.473
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 632.781 ; gain = 105.512
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 632.781 ; gain = 422.473
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+77 Infos, 25 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 632.781 ; gain = 422.473
+INFO: [Common 17-1381] The checkpoint 'C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.runs/synth_1/project_reti_logiche.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 632.781 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 28 13:52:41 2023...

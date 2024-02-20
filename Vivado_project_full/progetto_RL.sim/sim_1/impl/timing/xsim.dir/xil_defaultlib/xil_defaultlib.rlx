@@ -1,0 +1,6 @@
+0.6
+2016.4
+Jan 23 2017
+19:37:30
+C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.sim/sim_1/impl/timing/project_tb_time_impl.v,1678112193,verilog,,,,exit_selector;ff_d;ff_d_0;ff_d_1;ff_d_15;ff_d_16;ff_d_17;ff_d_18;ff_d_19;ff_d_2;ff_d_20;ff_d_21;ff_d_22;ff_d_23;ff_d_24;ff_d_25;ff_d_26;ff_d_27;ff_d_28;ff_d_29;ff_d_3;ff_d_30;ff_d_31;ff_d_32;ff_d_33;ff_d_4;ff_sr;ff_sr_8;glbl;input_splitter;logic_block_b;monostable_circuit;out_reg;out_reg_5;out_reg_6;out_reg_7;project_reti_logiche;reg_d;reg_d_10;reg_d_12;reg_d_14;reg_sr;reg_sr_11;reg_sr_13;reg_sr_9;serial_reg,,,,,,,,
+C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sim_1/new/testbench.vhd,1678111807,vhdl,,,,project_tb,,,,,,,,

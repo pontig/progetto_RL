@@ -1,0 +1,13 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "F:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sources_1/new/progetto_reti_logiche.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity out_reg
+INFO: [VRFC 10-307] analyzing entity logic_block_b
+INFO: [VRFC 10-307] analyzing entity logic_block_a
+INFO: [VRFC 10-307] analyzing entity serial_reg
+INFO: [VRFC 10-307] analyzing entity exit_selector
+INFO: [VRFC 10-307] analyzing entity input_splitter
+INFO: [VRFC 10-307] analyzing entity monostable_circuit
+INFO: [VRFC 10-307] analyzing entity reg_sr
+INFO: [VRFC 10-307] analyzing entity reg_d
+INFO: [VRFC 10-307] analyzing entity ff_sr
+INFO: [VRFC 10-307] analyzing entity ff_d
+INFO: [VRFC 10-307] analyzing entity project_reti_logiche

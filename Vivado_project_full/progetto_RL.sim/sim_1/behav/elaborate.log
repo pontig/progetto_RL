@@ -1,0 +1,26 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Programmi/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto ea6b31e3e3c44eafa36b26cd93c5fa5d --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot project_reti_logiche_behav xil_defaultlib.project_reti_logiche -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture mem of entity xil_defaultlib.ff_d [ff_d_default]
+Compiling architecture pulse of entity xil_defaultlib.monostable_circuit [monostable_circuit_default]
+Compiling architecture split of entity xil_defaultlib.input_splitter [input_splitter_default]
+Compiling architecture dataflow of entity xil_defaultlib.logic_block_a [logic_block_a_default]
+Compiling architecture bubbling of entity xil_defaultlib.serial_reg [serial_reg_default]
+Compiling architecture structural of entity xil_defaultlib.ff_sr [ff_sr_default]
+Compiling architecture memorize of entity xil_defaultlib.exit_selector [exit_selector_default]
+Compiling architecture behavioral of entity xil_defaultlib.logic_block_b [logic_block_b_default]
+Compiling architecture behavioral of entity xil_defaultlib.reg_sr [reg_sr_default]
+Compiling architecture mem of entity xil_defaultlib.reg_d [reg_d_default]
+Compiling architecture dump of entity xil_defaultlib.out_reg [out_reg_default]
+Compiling architecture proj of entity xil_defaultlib.project_reti_logiche
+Built simulation snapshot project_reti_logiche_behav

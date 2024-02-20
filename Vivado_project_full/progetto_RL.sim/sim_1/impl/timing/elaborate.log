@@ -1,0 +1,79 @@
+Vivado Simulator 2016.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Programmi/Xilinx/Vivado/2016.4/bin/unwrapped/win64.o/xelab.exe -wto ea6b31e3e3c44eafa36b26cd93c5fa5d --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot project_tb_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.project_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "project_tb_time_impl.sdf", for root module "project_tb/UUT".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "project_tb_time_impl.sdf", for root module "project_tb/UUT".
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling module simprims_ver.sffsrce_fdre
+Compiling module simprims_ver.FDRE
+Compiling module xil_defaultlib.ff_d_18
+Compiling module xil_defaultlib.ff_d_19
+Compiling module xil_defaultlib.ff_d_20
+Compiling module xil_defaultlib.ff_d_21
+Compiling module xil_defaultlib.ff_d_22
+Compiling module xil_defaultlib.ff_d_23
+Compiling module xil_defaultlib.ff_d_24
+Compiling module xil_defaultlib.ff_d_25
+Compiling module xil_defaultlib.ff_d_26
+Compiling module xil_defaultlib.ff_d_27
+Compiling module xil_defaultlib.ff_d_28
+Compiling module xil_defaultlib.ff_d_29
+Compiling module xil_defaultlib.ff_d_30
+Compiling module xil_defaultlib.ff_d_31
+Compiling module xil_defaultlib.ff_d_32
+Compiling module xil_defaultlib.ff_d_33
+Compiling module xil_defaultlib.serial_reg
+Compiling module simprims_ver.x_lut3_mux4
+Compiling module simprims_ver.LUT3
+Compiling module xil_defaultlib.ff_d_16
+Compiling module xil_defaultlib.ff_d_17
+Compiling module xil_defaultlib.input_splitter
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module xil_defaultlib.ff_d
+Compiling module xil_defaultlib.ff_d_0
+Compiling module xil_defaultlib.ff_d_1
+Compiling module xil_defaultlib.ff_d_2
+Compiling module xil_defaultlib.ff_d_3
+Compiling module xil_defaultlib.ff_d_4
+Compiling module xil_defaultlib.ff_d_15
+Compiling module xil_defaultlib.monostable_circuit
+Compiling module simprims_ver.BUFG
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.LUT5
+Compiling module xil_defaultlib.reg_sr_13
+Compiling module xil_defaultlib.reg_d_14
+Compiling module xil_defaultlib.out_reg
+Compiling module xil_defaultlib.reg_sr_11
+Compiling module xil_defaultlib.reg_d_12
+Compiling module xil_defaultlib.out_reg_5
+Compiling module xil_defaultlib.reg_sr_9
+Compiling module xil_defaultlib.reg_d_10
+Compiling module xil_defaultlib.out_reg_6
+Compiling module xil_defaultlib.reg_sr
+Compiling module xil_defaultlib.reg_d
+Compiling module xil_defaultlib.out_reg_7
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.LUT4
+Compiling module xil_defaultlib.ff_sr
+Compiling module xil_defaultlib.ff_sr_8
+Compiling module xil_defaultlib.exit_selector
+Compiling module simprims_ver.x_lut1_mux2
+Compiling module simprims_ver.LUT1
+Compiling module xil_defaultlib.logic_block_b
+Compiling module xil_defaultlib.project_reti_logiche
+Compiling architecture projecttb of entity xil_defaultlib.project_tb
+Built simulation snapshot project_tb_time_impl

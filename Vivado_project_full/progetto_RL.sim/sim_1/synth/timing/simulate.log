@@ -1,0 +1,5 @@
+Vivado Simulator 2016.4
+Time resolution is 1 ps
+Failure: Simulation Ended! TEST PASSATO (NO 3)
+Time: 24803307 ps  Iteration: 0  Process: /test3/testRoutine  File: C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sim_1/new/testbench.vhd
+$finish called at time : 24803307 ps : File "C:/Elia/Documenti/Codici/progetto_RL/progetto_RL.srcs/sim_1/new/testbench.vhd" Line 320

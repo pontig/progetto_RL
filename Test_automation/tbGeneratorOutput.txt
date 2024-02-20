@@ -1,0 +1,131 @@
+----------------------------------------------------------------------------------
+-- Company: Politecnico di Milano
+-- Test Created by: Elia Pontiggia
+--
+-- Last tested on date: dd.mm.yyyy hh:mm:ss
+--
+-- Target of the test:
+-- 
+----------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity test1 is
+end test1;
+
+architecture testBench of test1 is
+    component project_reti_logiche is
+        port(
+            i_clk : in std_logic; 
+            i_rst : in std_logic; 
+            i_start : in std_logic; 
+            i_w : in std_logic; 
+            
+            o_z0 : out std_logic_vector(7 downto 0); 
+            o_z1 : out std_logic_vector(7 downto 0); 
+            o_z2 : out std_logic_vector(7 downto 0); 
+            o_z3 : out std_logic_vector(7 downto 0); 
+            o_done : out std_logic; 
+            
+            o_mem_addr : out std_logic_vector(15 downto 0); 
+            i_mem_data : in std_logic_vector(7 downto 0); 
+            o_mem_we : out std_logic; 
+            o_mem_en : out std_logic
+        );
+    end component;
+    
+    CONSTANT clk_period: time := 10ns;
+    
+    signal clk: std_logic := '0';
+    signal rst: std_logic := '0';
+    signal start: std_logic := '0';
+    signal w: std_logic := '0';
+    
+    signal mem_addr: std_logic_vector (15 downto 0) := (others => '0');
+    signal mem_we: std_logic := '0';
+    signal mem_en: std_logic := '0';
+    
+    signal mem_data : std_logic_vector(7 downto 0) := (others => '0');
+    
+begin
+    UUT: project_reti_logiche
+        port map(
+            i_clk => clk,
+            i_rst => rst,
+            i_start => start,
+            i_w => w,
+            o_mem_addr => mem_addr,
+            o_mem_we => mem_we,
+            o_mem_en => mem_en,
+            i_mem_data => mem_data
+        );
+        
+        clk_process: process
+        begin
+            clk <= '1';
+            WAIT FOR clk_period/2;
+            clk <= '0';
+            WAIT FOR clk_period/2;
+        end process;
+    
+        simulation: process
+        begin
+            
+            WAIT FOR clk_period/10;
+            rst <= '1';
+            WAIT FOR clk_period;
+            rst <= '0';
+            WAIT FOR clk_period;
+            start <= '1';
+            start <= '0';
+            WAIT FOR clk_period*20;
+            start <= '1';
+            w <= '0';
+            WAIT FOR clk_period;
+            w <= '0';
+            WAIT FOR clk_period;
+            w <= '1';
+            WAIT FOR clk_period;
+            w <= '0';
+            WAIT FOR clk_period;
+            w <= '1';
+            WAIT FOR clk_period;
+            w <= '0';
+            WAIT FOR clk_period;
+            w <= '1';
+            WAIT FOR clk_period;
+            w <= '0';
+            WAIT FOR clk_period;
+            w <= '1';
+            WAIT FOR clk_period;
+            w <= '0';
+            WAIT FOR clk_period;
+            w <= '1';
+            WAIT FOR clk_period;
+            w <= '0';
+            WAIT FOR clk_period;
+            w <= '1';
+            WAIT FOR clk_period;
+            w <= '0';
+            WAIT FOR clk_period;
+            w <= '1';
+            WAIT FOR clk_period;
+            w <= '0';
+            WAIT FOR clk_period;
+            w <= '1';
+            WAIT FOR clk_period;
+            w <= '0';
+            WAIT FOR clk_period;
+            start <= '0';
+            WAIT FOR clk_period;
+            WAIT FOR clk_period;
+            WAIT FOR clk_period;
+            WAIT FOR clk_period;
+            
+        ASSERT(FALSE) REPORT "Fine del test #1" SEVERITY FAILURE;
+    end process;
+        
+
+end testBench;
